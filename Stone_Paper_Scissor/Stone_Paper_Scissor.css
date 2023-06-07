@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+p.head{
+    font: italic small-caps bold 36px/30px Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.move-img{
+    height: 50px;
+    width: 50px;
+}
+
+.move-button{
+    border: 2px solid white;
+    background: rgb(25, 25, 25);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+p.result, p.playermoves, p.scoreboard{
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.reset-button{
+    font-size: 16px;
+    border: none;
+    border-radius:10px;
+    background-color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
