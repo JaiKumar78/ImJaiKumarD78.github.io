@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link  href="/Digital7.ttf">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="outputScreen">
+                <div class="previousOperand previous"></div>
+                <div class="currentOperand current"></div>
+            </div>
+            <div class="inputButtons">
+                <div class="inputButton-row"  id="funcKeys">
+                    <button class="allClear-button allClear">AC</button>
+                    <button class="delete-button delete">Del</button>
+                    <button class="percentage-button percent">%</button>
+                    <button class="operation" id="divideButton">/</button>
+                </div>
+
+                <div class="inputButton-row">
+                    <button class="numinputButton">7</button>
+                    <button class="numinputButton">8</button>
+                    <button class="numinputButton">9</button>
+                    <button id="multiplyButton" class="operation">*</button>
+                </div>
+
+                <div class="inputButton-row">
+                    <button class="numinputButton">4</button>
+                    <button class="numinputButton">5</button>
+                    <button class="numinputButton">6</button>
+                    <button id="subtractButton" class="operation">-</button>
+                </div>
+
+                <div class="inputButton-row">
+                    <button class="numinputButton">1</button>
+                    <button class="numinputButton">2</button>
+                    <button class="numinputButton">3</button>
+                    <button id="plusButton" class="operation">+</button>
+                </div>
+
+                <div class="inputButton-row">
+                    <button class="numinputButton">0</button>
+                    <button class="numinputButton">00</button>
+                    <button class="numinputButton">.</button>
+                    <button id="equalsButton" class="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
