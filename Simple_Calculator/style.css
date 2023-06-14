@@ -54,7 +54,7 @@
     margin: 5px;
     max-width: 255px;
     display: grid;
-    grid-template-rows: 40px 60px minmax(0, auto);
+    grid-template-rows: 40px minmax(60px, auto);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*box-shadow: inset -5px -5px 12px black,
                 inset 5px 5px  12px  black;
