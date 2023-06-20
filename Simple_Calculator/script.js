@@ -24,7 +24,8 @@ const currentOperandTextElement = document.querySelector('.current')
       this.currentOperand = this.currentOperand.toString().slice(0, -1)
     }
 
-    percentage(number){
+    percentage(){
+      this.currentOperand = Number(this.currentOperand) / 100;
     }
 
     appendNumber(number) {
@@ -119,7 +120,7 @@ const currentOperandTextElement = document.querySelector('.current')
   })
 
   percentButton.addEventListener('click', button => {
-    calculator.percentage(this.currentOperand)
+    calculator.percentage()
     calculator.updateDisplay()
   })
   
