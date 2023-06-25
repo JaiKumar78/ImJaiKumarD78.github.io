@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>ToDo list</h1>
+    <div class="container">
+        <div class="todoList">
+            <input type="text" class="todo" placeholder="todo:" required>
+            <input type="date" class="deadline">
+            <button class="addtodo" onclick="mytodo()">Add</button>
+            <div class="listoftodos"></div>
+            <div class="buttons">
+                <!--to sort the todo activities-->
+                <button class="reset" onclick="refresh()">Reset</button>
+                <button class="order" onclick="priority()">Prioritize</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
