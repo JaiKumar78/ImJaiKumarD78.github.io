@@ -41,7 +41,8 @@ function removetodo(index){
 }
 
 function refresh() {
-    window.location.reload();
+    let todoListHTML = '';
+    document.querySelector('.listoftodos').innerHTML = todoListHTML;
 }
 
 function priority(){
