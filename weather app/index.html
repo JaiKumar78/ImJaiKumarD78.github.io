@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherify</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weatherify</h1>
+        <form class="place-input">
+            <input type="text" placeholder="search location" class="location">
+            <button type="submit" class="submitbtn"><img src="./images/arrow_forward.svg" alt=""></button>
+        </form>
+        <div class="temp">
+            <h3></h3>
+            <img src="" alt="" class="weather-img">
+            <p class="celcius"></p>
+        </div>
+        <div class="weather">
+            <div class="humidity">
+                <img src="./images/humidity.png" alt="">
+                <div class="info">
+                    <p class="humid"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="./images/wind.png" alt="">
+                <div class="info">
+                    <p class="windspeed"></p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

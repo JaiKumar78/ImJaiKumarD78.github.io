@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    /*background-image: url("./imgs/Portugualflag.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.navigation{
+    background-color: #25a244;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 0px 40px;
+    padding-top: 5px;
+}
+
+.navigation .menu{
+    float: right;
+    display: flex;
+    margin: 30px 40px 30px;
+    padding: 11px 11px 10px;
+}
+
+.menu .list{
+    margin:  0 40px;
+    /* padding: 0 20px; */
+    font-size: 16px;
+    list-style: none;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:visited{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:active{
+    color: #DA291C;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#home, #about, #achievements, #bestplays, #fcclubs{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 22px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.trophy{
+    width: 1843px;
+    max-height: 100vh;
+    border-radius: 20px;
+}
+
+.container1, .container2, .container3, .container4{
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container1 > p > img{
+    float: right;
+    height: 100vh;
+    width: 600px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container2 > p > img{
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container3 > p > img{
+    width: 728px;
+    height: 1026px;
+    float: right;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container4 > p > img{
+    width: 728px;
+    height: 1026px;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.footer{
+    height: 70px;
+    background-color: #25a244;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
