@@ -25,7 +25,7 @@ const weatherdata = async() => {
 
         let img = document.querySelector(".weather-img");
         let string = data.weather[0].main;
-        img.src = `./images/${string}.png`;
+        img.src = `../images/${string}.png`;
 
 
 
